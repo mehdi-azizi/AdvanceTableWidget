@@ -1,0 +1,15 @@
+.directory
+*.user
+*.txt.user*
+*/.directory
+*/doc
+doc/*
+build
+build-*
+build-*/*
+*_BACKUP_*
+*_LOCAL_*
+*_REMOTE_*
+*_BASE_*
+/.project
+
