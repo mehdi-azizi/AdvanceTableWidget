@@ -1,10 +1,10 @@
 
 # Custom Table 
-QWidget (Qt) based Table (also tree) Widget capable of showing items that created from multiple threads. Also has advanced filter widget.
+QWidget (Qt) based Table (also tree) Widget capable of showing items that created from multiple threads. Also has advanced filter widget. This repository also contains a sample project that shows how to use the module. This project located in **sample-project** folder.
 
-![Sample Project Image](./images/image.png)
-
-This repository also contains a sample project that shows how to use the module. This project located in **sample-project** folder.
+  
+  
+ ![Sample Project Image](./images/image.png)
 
 ## Table of contents
 * [Dependencies](#dependencies)
