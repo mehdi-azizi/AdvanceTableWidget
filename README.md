@@ -142,7 +142,7 @@ void  MainWindow::initTable()
 ```
 If the **id** of the item exists in the table, the manager class just updates the row, otherwise adds it as a new row to the table. also if  **isDeleted** is true the corresponding row will be deleted.
 
-Add new item example:
+Adding new item example:
 ```c++
   auto  item  =QSharedPointer<SampleItem>(new  SampleItem());
   item->setId(1);
@@ -151,7 +151,7 @@ Add new item example:
   _manager->changeItem(item);
 ```
 
-Update item example:
+Updating example:
 ```c++
   item->setId(1);
   item->setName("Item1-updated");
@@ -159,7 +159,7 @@ Update item example:
   _manager->changeItem(item);
 ```
 
-Delete item example:
+Deleting item example:
 ```c++
   item->setId(1);
   _manager->changeItem(item,true);
