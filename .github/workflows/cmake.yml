@@ -26,6 +26,7 @@ jobs:
         version: '5.15.2'
         target: 'desktop'
         host: 'linux'
+        arch: 'gcc_64'
         install-deps: 'true'
         modules: 'qtcharts qtwebengine'
         archives: 'qtbase qtsvg'
