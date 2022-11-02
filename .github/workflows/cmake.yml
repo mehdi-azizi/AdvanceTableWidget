@@ -30,7 +30,7 @@ jobs:
         install-deps: 'true'
         modules: 'qtcharts qtwebengine'
         archives: 'qtbase qtsvg'
-        cache: 'false'
+        cache: 'true'
         cache-key-prefix: 'install-qt-action'
         setup-python: 'true'
         tools: 'tools_ifw tools_qtcreator'
